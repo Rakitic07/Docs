@@ -73,7 +73,7 @@ To share authentication cookies between your ASP.NET 4.x applications and your A
       // ...
   });
   
-3. Modify the call to UseCookieAuthentication as follows, changing the CookieName to match name used by the ASP.NET Core cookie authentication middleware, and providing an instance of a DataProtectionProvider that has been initialized to a key storage location.
+3. Modify the call to UseCookieAuthentication as follows, changing the CookieName to match the name used by the ASP.NET Core cookie authentication middleware, and providing an instance of a DataProtectionProvider that has been initialized to a key storage location.
 
 .. code-block:: c#
 
